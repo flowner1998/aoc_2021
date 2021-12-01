@@ -2,7 +2,7 @@ use std::fs;
 use std::cmp::Ordering;
 
 fn main() {
-    let filename: String = String::from("./input");
+    let filename: String = String::from("../input");
     let input = read_input(&filename);
     
     let mut increases = 0;
